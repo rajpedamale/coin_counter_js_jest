@@ -1,7 +1,6 @@
 'use strict';
 
 function count_coins(cents, coinsList) {
-  coinsList.sort((a, b) => b - a);
   const coinsForCents = new Array(cents + 1).fill(0);
   coinsForCents[0] = 1;
   coinsList.forEach(coin => {

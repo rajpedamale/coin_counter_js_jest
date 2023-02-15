@@ -1,12 +1,12 @@
 PASS ./count_coins.test.js
   Count Coins
-    ✓ should return a number (4 ms)
+    ✓ should return a number (3 ms)
     ✓ should return 1 for 1 cent (1 ms)
-    ✓ should return 2 for 5 cents (1 ms)
-    ✓ should return 242 for 100 cents (2 ms)
+    ✓ should return 2 for 5 cents
+    ✓ should return 242 for 100 cents
 
 Test Suites: 1 passed, 1 total
 Tests:       4 passed, 4 total
 Snapshots:   0 total
-Time:        1.445 s
+Time:        1.385 s
 Ran all test suites.
