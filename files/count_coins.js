@@ -1,7 +1,7 @@
 'use strict';
 
 function count_coins() {
-  return 0;
+  return 1;
 }
 
 module.exports = count_coins;
