@@ -16,4 +16,8 @@ describe('Count Coins', () => {
   it('should return 2 for 5 cents', () => {
     expect(count_coins(5, coinsList)).toEqual(2);
   });
+
+  it('should return 242 for 100 cents', () => {
+    expect(count_coins(100, coinsList)).toEqual(242);
+  });
 });

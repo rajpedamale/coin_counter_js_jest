@@ -8,7 +8,7 @@ function count_coins(cents, coinsList) {
     coinsForCents.forEach((coinsForCent, index) => {
       coinsForCents[index] += index < coin
         ? 0
-        : coinsForCents[index - coin]
+        : coinsForCents[index - coin];
     });
   });
   return coinsForCents.pop();
